@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Shumaila Riaz - Portfolio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <header class="glass-header">
+    <div class="logo.">Shumaila Riaz</div>
+    <nav>
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#hobbies">Hobbies</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <div class="hero-content">
+      <h1>Hello, I'm <span>Shumaila Riaz</span></h1>
+      <p>Aspiring AI/ML & Cybersecurity Enthusiast</p>
+      <a href="#contact" class="cta">Hire Me</a>
+    </div>
+  </section>
+
+  <section id="about" class="section glass-card">
+    <h2>About Me</h2>
+    <div class="about-content">
+      <img src="My pic.jpeg" alt="Shumaila Riaz">
+      <p>I am a passionate learner with a background in Mathematics and growing experience in Artificial Intelligence,
+        Cybersecurity, and Graphic Design. I love building, designing, and solving real-world problems using creativity
+        and technology.</p>
+    </div>
+  </section>
+
+  <section id="skills" class="section">
+    <h2>Skills</h2>
+    <div class="skills-grid">
+      <div class="skill-box">Python (AI/ML)</div>
+      <div class="skill-box">HTML/CSS</div>
+      <div class="skill-box">JavaScript</div>
+      <div class="skill-box">Graphic Designing</div>
+      <div class="skill-box">Cybersecurity Basics</div>
+      <div class="skill-box">Git & GitHub</div>
+    </div>
+  </section>
+
+  <<section id="projects" class="section glass-card">
+    <h2>Projects</h2>
+    <div class="skills-grid">
+
+      <!-- AI/ML Projects -->
+      <div class="skill-box">
+        <h3>Face Detection System</h3>
+        <p>Developed a real-time face detection system using OpenCV and Haar cascades, useful for surveillance and
+          security apps.</p>
+      </div>
+      <div class="skill-box">
+        <h3>Smart Meter Spam Detector</h3>
+        <p>Trained a classification model to detect spam and anomaly patterns in smart meter usage data using machine
+          learning.</p>
+      </div>
+      <div class="skill-box">
+        <h3>Hand Gesture Recognition</h3>
+        <p>Created an AI-based hand gesture recognition tool with OpenCV and Mediapipe for contactless control systems.
+        </p>
+      </div>
+      <div class="skill-box">
+        <h3>AI Junior Developer Chatbot</h3>
+        <p>Built an NLP-based chatbot that answers beginner programming queries using Python and natural language
+          processing techniques.</p>
+      </div>
+      <div class="skill-box">
+        <h3>Real-Time Mask Detection</h3>
+        <p>Implemented a computer vision system that detects whether a person is wearing a face mask in real-time using
+          TensorFlow and OpenCV.</p>
+      </div>
+      <div class="skill-box">
+        <h3>Voice-Controlled Smart Assistant</h3>
+        <p>Built a desktop assistant that responds to voice commands to perform simple tasks using Python speech
+          recognition libraries.</p>
+      </div>
+
+
+    </div>
+    </section>
+
+
+    <section id="hobbies" class="section glass-card">
+      <h2>Hobbies & Interests</h2>
+      <div class="hobby-tags">
+        <span> Exploring AI</span>
+        <span> Cybersecurity</span>
+        <span> Designing</span>
+        <span> Logic Puzzles</span>
+        <span> Online Learning</span>
+        <span> Photography</span>
+        <span> Tech Webinars</span>
+      </div>
+    </section>
+
+    <section id="contact" class="section">
+      <h2>Contact Me</h2>
+      <form id="contact-form">
+        <input type="text" id="name" placeholder="Your name" required>
+        <input type="email" id="email" placeholder="Your email" required>
+        <textarea id="message" placeholder="Your Message" required></textarea>
+        <button type="submit">Send Message</button>
+      </form>
+      <div class="social-links">
+        <a href="mailto:shumailariaz429@gmail.com"><i class="fas fa-envelope"></i></a>
+        <a href="https://www.linkedin.com/in/shumaila-riaz-354a15323" target="_blank"><i
+            class="fab fa-linkedin"></i></a>
+      </div>
+    </section>
+
+    <footer>
+      <p>&copy; 2025 Shumaila Riaz | Designed with ❤️</p>
+    </footer>
+
+    <script>
+      document.getElementById("contact-form").addEventListener("submit", function (e) {
+        e.preventDefault();
+        const name = document.getElementById("name").value;
+        alert(`Thank you for your message, ${name}!`);
+      });
+    </script>
+    <script>
+      document.getElementById("contact-form").addEventListener("submit", function (e) {
+        e.preventDefault(); // prevents page reload
+        const name = document.getElementById("name").value;
+        alert(`Thank you for your message, ${name}!`);
+      });
+    </script>
+</body>
+
+</html>
